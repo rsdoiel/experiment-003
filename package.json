@@ -1,0 +1,26 @@
+{
+  "name": "experiment-003.local",
+  "version": "0.0.0",
+  "description": "An experimental implementation of http.GET()",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rsdoiel/experiment-003.git"
+  },
+  "author": "R. S. Doiel, <rsdoiel@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/rsdoiel/experiment-003/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-cssmin": "~0.6.2",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-jslint": "~1.1.1",
+    "grunt-csscss": "~0.6.1"
+  }
+}
