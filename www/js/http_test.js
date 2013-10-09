@@ -18,9 +18,12 @@
             print(test_http, "ERROR: http object missing");
             return;
         }
-        print(test_http, "ERROR http.addRequestHeader() tests not implemented");
-        print(test_http, "ERROR http.resetRequestHeader() tests not implemented");
-        print(test_http, "ERROR http.GET() tests not implemented");
+        print(test_http,
+            "ERROR http.addRequestHeader() tests not implemented");
+        print(test_http,
+            "ERROR http.resetRequestHeader() tests not implemented");
+        print(test_http,
+            "ERROR http.GET() tests not implemented");
     }
-    print(test_http, "ERROR: http tests not implemented.");
+    httpTests();
 }(this));
